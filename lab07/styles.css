@@ -5,4 +5,6 @@ h1 {font-size: 3em;}
 h2 {font-size: 1.5em;}
 body{background-color: #F6E8EA;}
 a{color:#2E86AB}
-nav{background-color: #DC74AD;}
+nav{background-color: #DC74AD; padding: 10px; margin-bottom: 30px;}
+nav a{color:#172121; font-size: larger;}
+nav a:hover{background-color:#FC7F36 ;}
