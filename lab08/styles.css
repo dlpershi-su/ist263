@@ -23,7 +23,7 @@ nav a:hover{background-color:#FC7F36 ;}
     display: flex;
     justify-content: space-around;
     background-color: white;
-    border: 1px color:#172121;
+    border: 1px, color #172121;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
