@@ -1,10 +1,93 @@
-body{font-family: Georgia, serif; color:#172121;}
-h1, h2 {color: #DC74AD;}
+body{font-family: Georgia, serif; color:#172121;
+background-color: #FFF5FD;}
+h1, h2 {color: #022E57;}
 .evenrow{background-color:#F6E8EA}
 h1 {font-size: 3em;}
 h2 {font-size: 1.5em;}
-body{background-color: #F6E8EA;}
-a{color:#2E86AB}
-nav{background-color: #DC74AD; padding: 10px; margin-bottom: 30px;}
-nav a{color:#172121; font-size: larger;}
-nav a:hover{background-color:#FC7F36 ;}
+a{color:#022E57}
+
+nav{background-color: #022E57; padding: 30px; margin-bottom: 30px;
+    display:flex; justify-content: flex-end; padding: 10px}
+
+nav a{color:#FFF5FD; font-size: larger; padding:10px; text-decoration: none;
+    transition: color 0.3s, text-decoration-color 0.3s;
+    text-decoration-color: transparent;}
+
+nav a:hover{color: #FF96AD; text-decoration:underline;
+    text-decoration-color: #FF96AD; text-underline-offset: 4px;}
+
+
+.home_content {
+    display: flex;
+    margin: 10px;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+
+.headshot {float: left; margin: 10px; margin-right: 80px; }
+
+.main_text{  
+    text-align: center;
+}
+
+#main_title {
+    font-size: 3.5em;
+}
+
+.contact_button {
+    background-color:#022E57; /* Blue background */
+    color: #FFF5FD; /* Text color */
+    padding: 10px 25px; /* Top/Bottom and Left/Right padding */
+    text-decoration: none; /* Remove underline */
+    border: 2px solid #022E57;
+    border-radius: 5px; /* Optional: rounded corners */
+    font-size: 2em; /* Increase font size */
+    display: inline-block; /* Allows padding to work properly */
+    margin-top: 40px; /* Space above the button */
+    transition: 0.3s;
+
+}
+
+.contact_button:hover {
+    background-color: #FFF5FD; /* Change background color on hover */
+    border: 2px solid #022E57;
+    color:#022E57;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Pushes footer to the bottom */
+}
+
+footer {
+    background-color: #022E57; /* Match the nav bar color */
+    color: #FFF5FD; /* Text color in the footer */
+    text-align: center;
+    padding: 20px 0; /* Padding for space around text */
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid #FFF5FD; /* Light colored line */
+    margin: 0 0 10px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    gap: 15px; /* Space between icons */
+    margin-top: 10px; /* Space above icons */
+}
+
+.social-icons img {
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Slightly enlarge icons on hover */
+}
+
