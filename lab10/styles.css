@@ -1,0 +1,115 @@
+
+body {
+    font-family: Georgia, serif;
+    color: #172121;
+    background-color: #F6E8EA;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2 {
+    color: #DC74AD;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;               
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+
+nav {
+    background-color: #DC74AD;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #172121;
+    font-size: larger;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #FC7F36;
+}
+
+
+.contact_row {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Flexbox 2 - Container for Skills and Sidebar */
+.flexbox-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;                   
+    margin: 0 auto;                  
+    max-width: 1200px;               
+    gap: 20px;                       
+}
+
+/* Skills Row - Takes up 75% of Flexbox 2 */
+.skills-row {
+    display: flex;
+    flex-wrap: wrap;                 
+    flex-basis: 75%;                 
+    justify-content: space-around;   
+    gap: 15px;                       
+}
+
+/* Other Skills Sidebar - Takes up 25% of Flexbox 2 */
+.other-skills {
+    flex-basis: 25%;                 
+    background-color: #DC74AD;
+    color: #F6E8EA;
+    border-radius: 10px;
+    padding: 15px;                   
+    box-sizing: border-box;          
+}
+
+/* Specific Style for h2 Inside Other Skills */
+.other-skills h2 {
+    color: #F6E8EA;
+}
+
+p {
+    margin: 10px 0 20px;             
+}
+
+@media only screen and (max-width: 800px) {
+    .headshot {max-width: 100%;}
+}
+
+.form_map {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form_map iframe {
+    max-width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    /* Hide the pipe separators on smaller screens */
+    nav span {
+        display: none;
+    }
+}
