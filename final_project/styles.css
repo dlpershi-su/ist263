@@ -38,7 +38,7 @@ nav a:hover{color: #FF96AD; text-decoration:underline;
 .contact_button {
     background-color:#022E57; /* Blue background */
     color: #FFF5FD; /* Text color */
-    padding: 10px 25px; /* Top/Bottom and Left/Right padding */
+    padding: 15px 30px; /* Top/Bottom and Left/Right padding */
     text-decoration: none; /* Remove underline */
     border: 2px solid #022E57;
     border-radius: 5px; /* Optional: rounded corners */
@@ -91,3 +91,41 @@ footer hr {
     transform: scale(1.1); /* Slightly enlarge icons on hover */
 }
 
+.code_row {
+    display: flex;
+    flex-wrap: wrap;                 
+    flex-basis: 75%;                 
+    justify-content: space-around;   
+    gap: 15px;                       
+}
+
+.code_project img {
+    width: 400px; 
+    height: 300px; 
+    object-fit: cover; /* Ensures images maintain aspect ratio while filling the box */
+    border: 2px solid #ccc; 
+    border-radius: 5px;
+}
+.design_row1 {
+    display: flex;
+    flex-wrap: wrap;                 
+    flex-basis: 75%;                 
+    justify-content: space-around;   
+    gap: 15px;                       
+}
+
+.design_row2 {
+    display: flex;
+    flex-wrap: wrap;                 
+    flex-basis: 75%;                 
+    justify-content: space-around;   
+    gap: 15px;                       
+}
+
+.design_project img {
+    width: 400px; 
+    height: 300px; 
+    object-fit: cover; /* Ensures images maintain aspect ratio while filling the box */
+    border: 2px solid #ccc; 
+    border-radius: 5px;
+}
