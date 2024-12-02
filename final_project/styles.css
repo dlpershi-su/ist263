@@ -22,7 +22,6 @@ h2 {
     text-decoration: underline;
     text-decoration-color: rgba(255, 150, 173, 0.3);
     text-underline-offset: 4px;
-    
 }
 
 nav {
@@ -158,8 +157,8 @@ footer hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 10px;
-    margin-bottom: 20px;
+
+    margin-bottom: 80px;
 }
 
 .code_project, .design_project {
@@ -206,7 +205,7 @@ footer hr {
     margin: 0; /* Remove default margins */
 }
 
-/* Additional styling */
+
 hr {
     border: none;
     border-top: 1px solid #022E57;
@@ -228,25 +227,24 @@ hr {
     margin-top: -150px;
 }
 
-.photo_row1 {
-    display: flex;
-    flex-wrap: wrap;                 
-    flex-basis: 75%;                 
-    justify-content: space-around;   
-    gap: 15px;                       
+   /* Carousel Container */
+   .carousel {
+    position: relative;
+    max-width: 50%; /* Make it responsive */
+    margin: auto;
+    overflow: hidden;
 }
 
-.photo_row2 {
-    display: flex;
-    flex-wrap: wrap;                 
-    flex-basis: 75%;                 
-    justify-content: space-around;   
-    gap: 15px;                       
+/* Carousel Slides */
+.carousel-slide {
+    display: none; /* Hide all images initially */
+    text-align: center;
 }
 
-
-
-
+.carousel-slide img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 
@@ -318,12 +316,27 @@ hr {
         margin-top: 20px;  /* Add margin to separate image and text */
     }
 
-    .photo_row1, .photo_row2 {
-        display: flex;
-        flex-direction: column;  /* Stack photos vertically */
-        align-items: center;
-        gap: 20px;
-    }
+   /* Carousel Container */
+   .carousel {
+    position: relative;
+    max-width: 80%; /* Make it responsive */
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Carousel Slides */
+.carousel-slide {
+    display: none; /* Hide all images initially */
+    text-align: center;
+}
+
+.carousel-slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
 
     .photo_project img {
         width: 90%;  /* Make photos responsive */
