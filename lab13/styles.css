@@ -1,7 +1,7 @@
 body {
     font-family: Georgia, serif;
     color: #172121;
-    background-color: #F6E8EA;
+    background-color: white;
     margin: 0;
     padding: 0;
     font-size: 1rem; /* Base font size */
@@ -70,7 +70,7 @@ nav a:hover {
 .other-skills {
     flex-basis: 25%;
     background-color: #DC74AD;
-    color: #F6E8EA;
+    color: white;
     border-radius: 10px;
     padding: 15px;
     box-sizing: border-box;
@@ -78,7 +78,7 @@ nav a:hover {
 
 /* Specific Style for h2 Inside Other Skills */
 .other-skills h2 {
-    color: #F6E8EA;
+    color: white;
 }
 
 p {
@@ -119,7 +119,7 @@ p {
     top: 10px; /* Temporarily set it visible */
     right: 10px;
     background-color: #DC74AD;
-    color: #F6E8EA;
+    color: white;
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 5px;
