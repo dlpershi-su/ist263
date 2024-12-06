@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2 {
-    color: #DC74AD;
+    color: purple;
 }
 
 h1 {
@@ -23,7 +23,7 @@ h2 {
 }
 
 nav {
-    background-color: #DC74AD;
+    background-color: purple;
     padding: 10px;
     margin-bottom: 30px;
 }
@@ -69,7 +69,7 @@ nav a:hover {
 /* Other Skills Sidebar - Takes up 25% of Flexbox 2 */
 .other-skills {
     flex-basis: 25%;
-    background-color: #DC74AD;
+    background-color: purple;
     color: white;
     border-radius: 10px;
     padding: 15px;
@@ -118,7 +118,7 @@ p {
     position: absolute;
     top: 10px; /* Temporarily set it visible */
     right: 10px;
-    background-color: #DC74AD;
+    background-color: purple;
     color: white;
     padding: 10px 15px;
     text-decoration: none;
